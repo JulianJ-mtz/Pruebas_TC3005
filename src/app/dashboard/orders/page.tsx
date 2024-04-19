@@ -64,7 +64,7 @@ export default function Orders() {
                     <td className=" flex x-4 py-6 font-medium text-gray-900 whitespace-nowrap dark:text-white items-center justify-center">
                       <button className="border rounded-2xl bg-cyan-600/70 hover:bg-white dark:hover:bg-cyan-900  dark:border-cyan-600  hover:border-cyan-600/70  transition-colors duration-150">
                         <div className="flex items-center px-3 py-1 text-white  hover:text-cyan-600/70 dark:hover:text-white/80 text-base ">
-                          Download PO Test
+                          PO Test
                           <svg
                             className="h-7 w-7 pl-2 fill-current"
                             width="800px"
@@ -87,7 +87,17 @@ export default function Orders() {
                       <td className="px-10 py-6 font-medium text-lg text-gray-900 whitespace-nowrap dark:text-white  items-center">
                         <div className="flex items-center">
                           {data.Documento}
-                          <p className="pl-4 font-extralight text-sm">
+                          <p
+                            className={`ml-4 font-bold text-sm ${"rounded-xl px-2 border border-black/30"} ${
+                              data.Prioridad === "Mandatory"
+                                ? " bg-red-400 text-white"
+                                : ""
+                            } ${
+                              data.Prioridad === "Optional"
+                                ? " bg-gray-200"
+                                : ""
+                            }`}
+                          >
                             {data.Prioridad}
                           </p>
                         </div>
