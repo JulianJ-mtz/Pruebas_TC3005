@@ -51,7 +51,7 @@ export default function Orders() {
   return (
     <div className="flex flex-col min-h-screen items-center p-24">
       <div className="border-b-2 border-black/10 dark:border-white/10 text-left w-[95%] pb-8 pt-20 justify-start">
-        <h1 className="text-5xl text-black dark:text-white ">Partners</h1>
+        <h1 className="text-5xl text-black dark:text-white ">Amazon Partnership</h1>
       </div>
       <section className="mt-24 bg-sky-100 dark:bg-gray-900 rounded-xl w-[95%] justify-between sm:py-5">
         <div className="px-4 mx-auto max-w-screen-2xl lg:px-12">
