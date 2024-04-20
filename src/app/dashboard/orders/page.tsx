@@ -49,14 +49,14 @@ export default function Orders() {
   ];
 
   return (
-    <div className="flex flex-col h-screen items-center p-24">
+    <div className="flex flex-col min-h-screen items-center p-24">
       <div className="border-b-2 border-black/10 dark:border-white/10 text-left w-[95%] pb-8 pt-20 justify-start">
         <h1 className="text-5xl text-black dark:text-white ">Partners</h1>
       </div>
       <section className="mt-24 bg-sky-100 dark:bg-gray-900 rounded-xl w-[95%] justify-between sm:py-5">
         <div className="px-4 mx-auto max-w-screen-2xl lg:px-12">
           <div className="relative overflow-hidden bg-white shadow-md dark:bg-gray-800 sm:rounded-lg">
-            <div className="overflow-x-auto  max-h-96">
+            <div className="overflow-x-auto max-h-96">
               <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400 ">
                 <thead className="text-x sticky top-0 text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 text-center">
                   <tr>
