@@ -1,7 +1,7 @@
 export default function Configuration() {
     return (
       <main className="flex min-h-screen flex-col items-center normal p-20">
-        <div className="border-b-2 border-black/10 dark:border-white/10 text-left w-[95%] pb-0 pt-20 justify-start"> 
+        <div className="border-b-2 border-black/10 dark:border-white/10 text-left w-[95%] pb-0 pt-10 justify-start"> 
             <h1 className="text-5xl text-blue-900 dark:text-white ">
                     {" "}
                     Segment Configuration{" "}
@@ -131,6 +131,12 @@ export default function Configuration() {
           </div>
 
         </section>
+
+        <div className="py-8 flex justify-center">
+      <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">
+        Save Document
+      </button>
+    </div>
       </main>
     );
   }

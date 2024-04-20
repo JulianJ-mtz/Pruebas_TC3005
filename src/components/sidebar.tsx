@@ -3,7 +3,7 @@ import { routes } from "@/app/routes/sidebarRoutes";
 export default function Sidebar() {
   return (
     <div className="">
-      <aside className=" top-0 left-0 py-2 z-40 w-60 h-[100%] pt-16 transform -translate-x-full md:translate-x-0 max-lg:hidden transition-opacity duration-500 opacity-0 md:opacity-100">
+      <aside className=" top-0 left-0 py-2 z-40 w-60 h-screen pt-16 transform -translate-x-full md:translate-x-0 max-lg:hidden transition-opacity duration-500 opacity-0 md:opacity-100">
         <div className="overflow-y-auto rounded-lg ms-2 h-full bg-sky-100 border-r border-gray-200 dark:bg-gray-800 dark:border-gray-700">
           <ul className=" content-center">
             {routes.map((componente, index: number) => (
