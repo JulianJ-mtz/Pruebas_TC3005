@@ -58,8 +58,7 @@ export default function Products() {
         <div className="flex flex-col items-center p-12">
             <div className="border-b-2 border-cyan-500 dark:border-white/10 text-left w-[95%] pb-8 pt-20 justify-start">
                 <h1 className="text-5xl text-blue-950 dark:text-white ">
-                    {" "}
-                    Partner's List
+                    Partner&apos;s List
                 </h1>
             </div>
 
