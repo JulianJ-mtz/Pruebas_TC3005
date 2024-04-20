@@ -28,5 +28,6 @@ export const routes: RoutesSidebar[] = [
     new SidebarRoute("Providers", "/dashboard/providers"),
     new SidebarRoute("Segment Configuration", "/dashboard/segment-configuration"),
     new SidebarRoute("Document Configuration", "/dashboard/document-configuration"),
-    new SidebarRoute("Modales", "/dashboard/modalUpload")
+    new SidebarRoute("Modales", "/dashboard/modalUpload"),
+    new SidebarRoute("Document", "/dashboard/documents")
 ]
