@@ -86,7 +86,7 @@ export default function Configuration() {
                             </svg></button>
                           </td>
                           <td className="px-6 py-4">
-                              $1999
+                          <input type="text" className="bg-white border border-gray-900 text-gray-900 text-lg rounded-lg focus:ring-blue-500 block w-50 px-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-blue-800 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required placeholder="067"/>
                           </td>
                           <td className="px-6 py-4">
 
