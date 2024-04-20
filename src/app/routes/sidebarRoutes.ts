@@ -25,5 +25,6 @@ export const routes: RoutesSidebar[] = [
     new SidebarRoute("Products", "/dashboard/products", [
         new SidebarRoute("New Products", "products/new-product")
     ]),
-    new SidebarRoute("Providers", "/dashboard/providers")
+    new SidebarRoute("Providers", "/dashboard/providers"),
+    new SidebarRoute("Segment Configuration", "/dashboard/configuration")
 ]
