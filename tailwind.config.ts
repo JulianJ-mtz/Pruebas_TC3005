@@ -8,8 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      turquesa: "#0798A5",
-      azulClaro: "#DEF2FB",
+      backgroundColor: {
+        turquesa: "#0798A5",
+        azulClaro: "#DEF2FB",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
